@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, type ReactNode } from "react";
 import LogoIconSVG from "@/assets/logo-icon.svg";
 import Logo from "./Logo";
+import { cn } from "@/lib/utils";
 
 interface PreloaderProps {
   onComplete?: () => void;
@@ -18,8 +19,8 @@ export default function Preloader({
   const [logoComplete, setLogoComplete] = useState(false);
   const [minTimeComplete, setMinTimeComplete] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
-  const [strokeDuration, setStrokeDuration] = useState(4); // default fallback duration
 
+  const [strokeDuration, setStrokeDuration] = useState(4);
   const jsx = LogoIconSVG({});
   let d = "";
   const iconChildren = jsx.props.children;
@@ -32,7 +33,6 @@ export default function Preloader({
   if (pathElement?.props?.d)
     d = pathElement.props.d;
 
-  // Calculate stroke duration based on path length
   useEffect(() => {
     if (d) {
       const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -71,36 +71,7 @@ export default function Preloader({
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <motion.svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              className="w-48 h-24"
-            >
-              {d && (
-                <motion.path
-                  d={d}
-                  stroke="#87BBE7"
-                  strokeWidth={0.2}
-                  strokeLinejoin="miter"
-                  strokeLinecap="butt"
-                  fill="transparent"
-                  initial={{ pathLength: 0, opacity: 0 }}
-                  animate={{ pathLength: 1, opacity: 1 }}
-                  transition={{
-                    pathLength: {
-                      duration: strokeDuration,
-                      ease: "easeInOut",
-                      delay: 0.2
-                    },
-                    opacity: {
-                      ease: "easeOut",
-                      delay: 0.2
-                    },
-                  }}
-                />
-              )}
-            </motion.svg>
-
+            <LogoIcon d={d} strokeDuration={strokeDuration} />
             <Logo onAnimationComplete={() => setLogoComplete(true)} duration={strokeDuration} />
 
             <motion.div
@@ -131,5 +102,47 @@ export default function Preloader({
 
       {!isVisible && children}
     </>
+  );
+}
+
+export function LogoIcon({
+  d,
+  strokeDuration,
+  className
+}: {
+  d: string,
+  strokeDuration: number
+  className?: string
+}) {
+  return (
+    <motion.svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      className={cn("w-48 h-24", className)}
+    >
+      {d && (
+        <motion.path
+          d={d}
+          stroke="#87BBE7"
+          strokeWidth={0.2}
+          strokeLinejoin="miter"
+          strokeLinecap="butt"
+          fill="transparent"
+          initial={{ pathLength: 0, opacity: 0 }}
+          animate={{ pathLength: 1, opacity: 1 }}
+          transition={{
+            pathLength: {
+              duration: strokeDuration,
+              ease: "easeInOut",
+              delay: 0.2
+            },
+            opacity: {
+              ease: "easeOut",
+              delay: 0.2
+            },
+          }}
+        />
+      )}
+    </motion.svg>
   );
 }

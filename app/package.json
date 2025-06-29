@@ -10,6 +10,7 @@
     "postinstall": "bun2nix -o ../bun.nix"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.34.0",
     "clsx": "^2.1.1",
     "motion": "^12.19.2",
     "next": "15.3.4",

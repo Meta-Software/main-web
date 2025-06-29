@@ -1083,6 +1083,18 @@
     url = "https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz";
     hash = "sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==";
   };
+  "@tabler/icons" = {
+    out_path = "@tabler/icons";
+    name = "@tabler/icons@3.34.0";
+    url = "https://registry.npmjs.org/@tabler/icons/-/icons-3.34.0.tgz";
+    hash = "sha512-jtVqv0JC1WU2TTEBN32D9+R6mc1iEBuPwLnBsWaR02SIEciu9aq5806AWkCHuObhQ4ERhhXErLEK7Fs+tEZxiA==";
+  };
+  "@tabler/icons-react" = {
+    out_path = "@tabler/icons-react";
+    name = "@tabler/icons-react@3.34.0";
+    url = "https://registry.npmjs.org/@tabler/icons-react/-/icons-react-3.34.0.tgz";
+    hash = "sha512-OpEIR2iZsIXECtAIMbn1zfKfQ3zKJjXyIZlkgOGUL9UkMCFycEiF2Y8AVfEQsyre/3FnBdlWJvGr0NU47n2TbQ==";
+  };
   "@tailwindcss/node" = {
     out_path = "@tailwindcss/node";
     name = "@tailwindcss/node@4.1.11";
