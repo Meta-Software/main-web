@@ -44,7 +44,7 @@ jobs:
             ${{ runner.os }}-nextjs-bun-${{ hashFiles('app/bun.lockb') }}-
 
       - name: Install dependencies
-        run: bun install
+        run: bun install --ignore-scripts
         working-directory: ./app
 
       - name: Build with Next.js
