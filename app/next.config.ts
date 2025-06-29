@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  output: "export",
+  basePath: "/main-web",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
