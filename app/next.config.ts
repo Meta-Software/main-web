@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
     });
     return config;
   },
+
   turbopack: {
     rules: {
       "*.svg": {
@@ -23,10 +24,12 @@ const nextConfig: NextConfig = {
       },
     },
   },
+
   output: "export",
   basePath: "/main-web",
   images: {
     unoptimized: true,
+    domains: ["aceternity.com"],
   },
 };
 
