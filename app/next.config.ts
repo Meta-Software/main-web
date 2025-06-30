@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+const isDev = process.env.NODE_ENV === "development";
+
 const nextConfig: NextConfig = {
   webpack(config) {
     config.module.rules.push({
@@ -25,8 +27,9 @@ const nextConfig: NextConfig = {
     },
   },
 
-  output: "export",
-  basePath: "/main-web",
+  output: isDev ? undefined : "export",
+  basePath: isDev ? undefined : "/main-web",
+
   images: {
     unoptimized: true,
     domains: ["aceternity.com"],
