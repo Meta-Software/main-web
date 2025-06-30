@@ -11,11 +11,16 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
+import LanguageSelector from "../LanguageSelector";
+import { useI18nContext } from "@/i18n/i18n-react";
+import { ThemeToggler } from "../theme-provider";
 
 export default function Nvbar() {
+  const { LL } = useI18nContext();
+  console.log(LL);
   const navItems = [
     {
-      name: "Home",
+      name: LL.HOME(),
       link: "/",
     },
     {
@@ -34,7 +39,8 @@ export default function Nvbar() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <LanguageSelector />
+            <ThemeToggler />
           </div>
         </NavBody>
 
@@ -63,13 +69,8 @@ export default function Nvbar() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Book a call
-              </NavbarButton>
+              <LanguageSelector />
+              <ThemeToggler />
             </div>
           </MobileNavMenu>
         </MobileNav>

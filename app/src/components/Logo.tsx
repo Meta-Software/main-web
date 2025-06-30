@@ -41,7 +41,7 @@ export default function Logo({
       {d && (
         <motion.path
           d={d}
-          stroke="#87BBE7"
+          className="stroke-cyan-700 dark:stroke-cyan-200"
           strokeWidth={strokeWidth}
           fill="transparent"
           initial={{ pathLength: 0, opacity: 0 }}

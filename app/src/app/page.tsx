@@ -1,15 +1,23 @@
+"use client";
+
 import { Cover } from "@/components/ui/cover";
 import { HeroParallax } from "@/components/ui/hero-parallax";
+import { useI18nContext } from "@/i18n/i18n-react";
 
 export default function Home() {
+  const { LL, locale } = useI18nContext();
+  const dir = locale === "ar" ? "rtl" : "ltr";
+  
   return (
     <div className="min-h-screen font-[family-name:var(--font-geist-sans)]">
       <main className="items-center">
-        <h1 className="top-40 text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-          Build amazing software <br /> at <Cover>light speed</Cover>
+        <h1
+          dir={dir}
+          className="top-40 text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+          {LL.HERO_TEXT()} <br /> <Cover>{LL.LIGHT_SPEED()}</Cover>
         </h1>
 
-        <HeroParallax products={products} />;
+        <HeroParallax products={products} />
       </main>
     </div>
   );

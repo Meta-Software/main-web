@@ -16,9 +16,10 @@ export default function Preloader({
   onComplete,
   minDisplayTime = 2000,
 }: PreloaderProps) {
+  const isDev = process.env.NEXT_PUBLIC_DEV === 'true';
   const [logoComplete, setLogoComplete] = useState(false);
   const [minTimeComplete, setMinTimeComplete] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(isDev ? false : true);
 
   const [strokeDuration, setStrokeDuration] = useState(4);
   const jsx = LogoIconSVG({});
@@ -123,7 +124,7 @@ export function LogoIcon({
       {d && (
         <motion.path
           d={d}
-          stroke="#87BBE7"
+          className="stroke-cyan-700 dark:stroke-cyan-200"
           strokeWidth={0.2}
           strokeLinejoin="miter"
           strokeLinecap="butt"

@@ -693,6 +693,30 @@
     url = "https://registry.npmjs.org/@eslint/core/-/core-0.15.1.tgz";
     hash = "sha512-bkOp+iumZCCbt1K1CmWf0R9pM5yKpDv+ZXtvSyQpudrI9kuFLp+bM2WOPXImuD/ceQuaa8f5pj93Y7zyECIGNA==";
   };
+  "@floating-ui/core" = {
+    out_path = "@floating-ui/core";
+    name = "@floating-ui/core@1.7.2";
+    url = "https://registry.npmjs.org/@floating-ui/core/-/core-1.7.2.tgz";
+    hash = "sha512-wNB5ooIKHQc+Kui96jE/n69rHFWAVoxn5CAzL1Xdd8FG03cgY3MLO+GF9U3W737fYDSgPWA6MReKhBQBop6Pcw==";
+  };
+  "@floating-ui/dom" = {
+    out_path = "@floating-ui/dom";
+    name = "@floating-ui/dom@1.7.2";
+    url = "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.2.tgz";
+    hash = "sha512-7cfaOQuCS27HD7DX+6ib2OrnW+b4ZBwDNnCcT0uTyidcmyWb03FnQqJybDBoCnpdxwBSfA94UAYlRCt7mV+TbA==";
+  };
+  "@floating-ui/react-dom" = {
+    out_path = "@floating-ui/react-dom";
+    name = "@floating-ui/react-dom@2.1.4";
+    url = "https://registry.npmjs.org/@floating-ui/react-dom/-/react-dom-2.1.4.tgz";
+    hash = "sha512-JbbpPhp38UmXDDAu60RJmbeme37Jbgsm7NrHGgzYYFKmblzRUh6Pa641dII6LsjwF4XlScDrde2UAzDo/b9KPw==";
+  };
+  "@floating-ui/utils" = {
+    out_path = "@floating-ui/utils";
+    name = "@floating-ui/utils@0.2.10";
+    url = "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.10.tgz";
+    hash = "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==";
+  };
   "@humanfs/core" = {
     out_path = "@humanfs/core";
     name = "@humanfs/core@0.19.1";
@@ -974,6 +998,168 @@
     name = "@nolyfill/is-core-module@1.0.39";
     url = "https://registry.npmjs.org/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz";
     hash = "sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==";
+  };
+  "@radix-ui/primitive" = {
+    out_path = "@radix-ui/primitive";
+    name = "@radix-ui/primitive@1.1.2";
+    url = "https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.2.tgz";
+    hash = "sha512-XnbHrrprsNqZKQhStrSwgRUQzoCI1glLzdw79xiZPoofhGICeZRSQ3dIxAKH1gb3OHfNf4d6f+vAv3kil2eggA==";
+  };
+  "@radix-ui/react-arrow" = {
+    out_path = "@radix-ui/react-arrow";
+    name = "@radix-ui/react-arrow@1.1.7";
+    url = "https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.7.tgz";
+    hash = "sha512-F+M1tLhO+mlQaOWspE8Wstg+z6PwxwRd8oQ8IXceWz92kfAmalTRf0EjrouQeo7QssEPfCn05B4Ihs1K9WQ/7w==";
+  };
+  "@radix-ui/react-collection" = {
+    out_path = "@radix-ui/react-collection";
+    name = "@radix-ui/react-collection@1.1.7";
+    url = "https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.7.tgz";
+    hash = "sha512-Fh9rGN0MoI4ZFUNyfFVNU4y9LUz93u9/0K+yLgA2bwRojxM8JU1DyvvMBabnZPBgMWREAJvU2jjVzq+LrFUglw==";
+  };
+  "@radix-ui/react-compose-refs" = {
+    out_path = "@radix-ui/react-compose-refs";
+    name = "@radix-ui/react-compose-refs@1.1.2";
+    url = "https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz";
+    hash = "sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==";
+  };
+  "@radix-ui/react-context" = {
+    out_path = "@radix-ui/react-context";
+    name = "@radix-ui/react-context@1.1.2";
+    url = "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz";
+    hash = "sha512-jCi/QKUM2r1Ju5a3J64TH2A5SpKAgh0LpknyqdQ4m6DCV0xJ2HG1xARRwNGPQfi1SLdLWZ1OJz6F4OMBBNiGJA==";
+  };
+  "@radix-ui/react-direction" = {
+    out_path = "@radix-ui/react-direction";
+    name = "@radix-ui/react-direction@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.1.tgz";
+    hash = "sha512-1UEWRX6jnOA2y4H5WczZ44gOOjTEmlqv1uNW4GAJEO5+bauCBhv8snY65Iw5/VOS/ghKN9gr2KjnLKxrsvoMVw==";
+  };
+  "@radix-ui/react-dismissable-layer" = {
+    out_path = "@radix-ui/react-dismissable-layer";
+    name = "@radix-ui/react-dismissable-layer@1.1.10";
+    url = "https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.10.tgz";
+    hash = "sha512-IM1zzRV4W3HtVgftdQiiOmA0AdJlCtMLe00FXaHwgt3rAnNsIyDqshvkIW3hj/iu5hu8ERP7KIYki6NkqDxAwQ==";
+  };
+  "@radix-ui/react-dropdown-menu" = {
+    out_path = "@radix-ui/react-dropdown-menu";
+    name = "@radix-ui/react-dropdown-menu@2.1.15";
+    url = "https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.15.tgz";
+    hash = "sha512-mIBnOjgwo9AH3FyKaSWoSu/dYj6VdhJ7frEPiGTeXCdUFHjl9h3mFh2wwhEtINOmYXWhdpf1rY2minFsmaNgVQ==";
+  };
+  "@radix-ui/react-focus-guards" = {
+    out_path = "@radix-ui/react-focus-guards";
+    name = "@radix-ui/react-focus-guards@1.1.2";
+    url = "https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.2.tgz";
+    hash = "sha512-fyjAACV62oPV925xFCrH8DR5xWhg9KYtJT4s3u54jxp+L/hbpTY2kIeEFFbFe+a/HCE94zGQMZLIpVTPVZDhaA==";
+  };
+  "@radix-ui/react-focus-scope" = {
+    out_path = "@radix-ui/react-focus-scope";
+    name = "@radix-ui/react-focus-scope@1.1.7";
+    url = "https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz";
+    hash = "sha512-t2ODlkXBQyn7jkl6TNaw/MtVEVvIGelJDCG41Okq/KwUsJBwQ4XVZsHAVUkK4mBv3ewiAS3PGuUWuY2BoK4ZUw==";
+  };
+  "@radix-ui/react-icons" = {
+    out_path = "@radix-ui/react-icons";
+    name = "@radix-ui/react-icons@1.3.2";
+    url = "https://registry.npmjs.org/@radix-ui/react-icons/-/react-icons-1.3.2.tgz";
+    hash = "sha512-fyQIhGDhzfc9pK2kH6Pl9c4BDJGfMkPqkyIgYDthyNYoNg3wVhoJMMh19WS4Up/1KMPFVpNsT2q3WmXn2N1m6g==";
+  };
+  "@radix-ui/react-id" = {
+    out_path = "@radix-ui/react-id";
+    name = "@radix-ui/react-id@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz";
+    hash = "sha512-kGkGegYIdQsOb4XjsfM97rXsiHaBwco+hFI66oO4s9LU+PLAC5oJ7khdOVFxkhsmlbpUqDAvXw11CluXP+jkHg==";
+  };
+  "@radix-ui/react-menu" = {
+    out_path = "@radix-ui/react-menu";
+    name = "@radix-ui/react-menu@2.1.15";
+    url = "https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.15.tgz";
+    hash = "sha512-tVlmA3Vb9n8SZSd+YSbuFR66l87Wiy4du+YE+0hzKQEANA+7cWKH1WgqcEX4pXqxUFQKrWQGHdvEfw00TjFiew==";
+  };
+  "@radix-ui/react-popper" = {
+    out_path = "@radix-ui/react-popper";
+    name = "@radix-ui/react-popper@1.2.7";
+    url = "https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.7.tgz";
+    hash = "sha512-IUFAccz1JyKcf/RjB552PlWwxjeCJB8/4KxT7EhBHOJM+mN7LdW+B3kacJXILm32xawcMMjb2i0cIZpo+f9kiQ==";
+  };
+  "@radix-ui/react-portal" = {
+    out_path = "@radix-ui/react-portal";
+    name = "@radix-ui/react-portal@1.1.9";
+    url = "https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz";
+    hash = "sha512-bpIxvq03if6UNwXZ+HTK71JLh4APvnXntDc6XOX8UVq4XQOVl7lwok0AvIl+b8zgCw3fSaVTZMpAPPagXbKmHQ==";
+  };
+  "@radix-ui/react-presence" = {
+    out_path = "@radix-ui/react-presence";
+    name = "@radix-ui/react-presence@1.1.4";
+    url = "https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz";
+    hash = "sha512-ueDqRbdc4/bkaQT3GIpLQssRlFgWaL/U2z/S31qRwwLWoxHLgry3SIfCwhxeQNbirEUXFa+lq3RL3oBYXtcmIA==";
+  };
+  "@radix-ui/react-primitive" = {
+    out_path = "@radix-ui/react-primitive";
+    name = "@radix-ui/react-primitive@2.1.3";
+    url = "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz";
+    hash = "sha512-m9gTwRkhy2lvCPe6QJp4d3G1TYEUHn/FzJUtq9MjH46an1wJU+GdoGC5VLof8RX8Ft/DlpshApkhswDLZzHIcQ==";
+  };
+  "@radix-ui/react-roving-focus" = {
+    out_path = "@radix-ui/react-roving-focus";
+    name = "@radix-ui/react-roving-focus@1.1.10";
+    url = "https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.10.tgz";
+    hash = "sha512-dT9aOXUen9JSsxnMPv/0VqySQf5eDQ6LCk5Sw28kamz8wSOW2bJdlX2Bg5VUIIcV+6XlHpWTIuTPCf/UNIyq8Q==";
+  };
+  "@radix-ui/react-slot" = {
+    out_path = "@radix-ui/react-slot";
+    name = "@radix-ui/react-slot@1.2.3";
+    url = "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz";
+    hash = "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==";
+  };
+  "@radix-ui/react-use-callback-ref" = {
+    out_path = "@radix-ui/react-use-callback-ref";
+    name = "@radix-ui/react-use-callback-ref@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz";
+    hash = "sha512-FkBMwD+qbGQeMu1cOHnuGB6x4yzPjho8ap5WtbEJ26umhgqVXbhekKUQO+hZEL1vU92a3wHwdp0HAcqAUF5iDg==";
+  };
+  "@radix-ui/react-use-controllable-state" = {
+    out_path = "@radix-ui/react-use-controllable-state";
+    name = "@radix-ui/react-use-controllable-state@1.2.2";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz";
+    hash = "sha512-BjasUjixPFdS+NKkypcyyN5Pmg83Olst0+c6vGov0diwTEo6mgdqVR6hxcEgFuh4QrAs7Rc+9KuGJ9TVCj0Zzg==";
+  };
+  "@radix-ui/react-use-effect-event" = {
+    out_path = "@radix-ui/react-use-effect-event";
+    name = "@radix-ui/react-use-effect-event@0.0.2";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz";
+    hash = "sha512-Qp8WbZOBe+blgpuUT+lw2xheLP8q0oatc9UpmiemEICxGvFLYmHm9QowVZGHtJlGbS6A6yJ3iViad/2cVjnOiA==";
+  };
+  "@radix-ui/react-use-escape-keydown" = {
+    out_path = "@radix-ui/react-use-escape-keydown";
+    name = "@radix-ui/react-use-escape-keydown@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz";
+    hash = "sha512-Il0+boE7w/XebUHyBjroE+DbByORGR9KKmITzbR7MyQ4akpORYP/ZmbhAr0DG7RmmBqoOnZdy2QlvajJ2QA59g==";
+  };
+  "@radix-ui/react-use-layout-effect" = {
+    out_path = "@radix-ui/react-use-layout-effect";
+    name = "@radix-ui/react-use-layout-effect@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz";
+    hash = "sha512-RbJRS4UWQFkzHTTwVymMTUv8EqYhOp8dOOviLj2ugtTiXRaRQS7GLGxZTLL1jWhMeoSCf5zmcZkqTl9IiYfXcQ==";
+  };
+  "@radix-ui/react-use-rect" = {
+    out_path = "@radix-ui/react-use-rect";
+    name = "@radix-ui/react-use-rect@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.1.tgz";
+    hash = "sha512-QTYuDesS0VtuHNNvMh+CjlKJ4LJickCMUAqjlE3+j8w+RlRpwyX3apEQKGFzbZGdo7XNG1tXa+bQqIE7HIXT2w==";
+  };
+  "@radix-ui/react-use-size" = {
+    out_path = "@radix-ui/react-use-size";
+    name = "@radix-ui/react-use-size@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.1.tgz";
+    hash = "sha512-ewrXRDTAqAXlkl6t/fkXWNAhFX9I+CkKlw6zjEwk86RSPKwZr3xpBRso655aqYafwtnbpHLj6toFzmd6xdVptQ==";
+  };
+  "@radix-ui/rect" = {
+    out_path = "@radix-ui/rect";
+    name = "@radix-ui/rect@1.1.1";
+    url = "https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.1.tgz";
+    hash = "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==";
   };
   "@rtsao/scc" = {
     out_path = "@rtsao/scc";
@@ -1737,6 +1923,12 @@
     url = "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz";
     hash = "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
   };
+  "aria-hidden" = {
+    out_path = "aria-hidden";
+    name = "aria-hidden@1.2.6";
+    url = "https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz";
+    hash = "sha512-ik3ZgC9dY/lYVVM++OISsaYDeg1tb0VtP5uL3ouh1koGOaUMDPpbFIei4JkFimWUFPn90sbMNMXQAIVOlnYKJA==";
+  };
   "aria-query" = {
     out_path = "aria-query";
     name = "aria-query@5.3.2";
@@ -1926,6 +2118,12 @@
     url = "https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz";
     hash = "sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==";
   };
+  "class-variance-authority" = {
+    out_path = "class-variance-authority";
+    name = "class-variance-authority@0.7.1";
+    url = "https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz";
+    hash = "sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==";
+  };
   "client-only" = {
     out_path = "client-only";
     name = "client-only@0.0.1";
@@ -2099,6 +2297,12 @@
     name = "detect-libc@2.0.4";
     url = "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.4.tgz";
     hash = "sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==";
+  };
+  "detect-node-es" = {
+    out_path = "detect-node-es";
+    name = "detect-node-es@1.1.0";
+    url = "https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz";
+    hash = "sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==";
   };
   "doctrine" = {
     out_path = "doctrine";
@@ -2471,6 +2675,12 @@
     name = "get-intrinsic@1.3.0";
     url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz";
     hash = "sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==";
+  };
+  "get-nonce" = {
+    out_path = "get-nonce";
+    name = "get-nonce@1.0.1";
+    url = "https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz";
+    hash = "sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==";
   };
   "get-proto" = {
     out_path = "get-proto";
@@ -2994,6 +3204,12 @@
     url = "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz";
     hash = "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==";
   };
+  "lucide-react" = {
+    out_path = "lucide-react";
+    name = "lucide-react@0.525.0";
+    url = "https://registry.npmjs.org/lucide-react/-/lucide-react-0.525.0.tgz";
+    hash = "sha512-Tm1txJ2OkymCGkvwoHt33Y2JpN5xucVq1slHcgE6Lk0WjDfjgKWor5CdVER8U6DvcfMwh4M8XxmpTiyzfmfDYQ==";
+  };
   "magic-string" = {
     out_path = "magic-string";
     name = "magic-string@0.30.17";
@@ -3119,6 +3335,12 @@
     name = "next@15.3.4";
     url = "https://registry.npmjs.org/next/-/next-15.3.4.tgz";
     hash = "sha512-mHKd50C+mCjam/gcnwqL1T1vPx/XQNFlXqFIVdgQdVAFY9iIQtY0IfaVflEYzKiqjeA7B0cYYMaCrmAYFjs4rA==";
+  };
+  "next-themes" = {
+    out_path = "next-themes";
+    name = "next-themes@0.4.6";
+    url = "https://registry.npmjs.org/next-themes/-/next-themes-0.4.6.tgz";
+    hash = "sha512-pZvgD5L0IEvX5/9GWyHMf3m8BKiVQwsCMHfoFosXtXBMnaS0ZnIJ9ST4b4NqLVKDEm8QBxoNNGNaBv2JNF6XNA==";
   };
   "next/postcss" = {
     out_path = "next/node_modules/postcss";
@@ -3317,6 +3539,24 @@
     name = "react-is@16.13.1";
     url = "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz";
     hash = "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==";
+  };
+  "react-remove-scroll" = {
+    out_path = "react-remove-scroll";
+    name = "react-remove-scroll@2.7.1";
+    url = "https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.1.tgz";
+    hash = "sha512-HpMh8+oahmIdOuS5aFKKY6Pyog+FNaZV/XyJOq7b4YFwsFHe5yYfdbIalI4k3vU2nSDql7YskmUseHsRrJqIPA==";
+  };
+  "react-remove-scroll-bar" = {
+    out_path = "react-remove-scroll-bar";
+    name = "react-remove-scroll-bar@2.3.8";
+    url = "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz";
+    hash = "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==";
+  };
+  "react-style-singleton" = {
+    out_path = "react-style-singleton";
+    name = "react-style-singleton@2.2.3";
+    url = "https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz";
+    hash = "sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==";
   };
   "reflect.getprototypeof" = {
     out_path = "reflect.getprototypeof";
@@ -3693,6 +3933,12 @@
     url = "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz";
     hash = "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==";
   };
+  "tw-animate-css" = {
+    out_path = "tw-animate-css";
+    name = "tw-animate-css@1.3.4";
+    url = "https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.3.4.tgz";
+    hash = "sha512-dd1Ht6/YQHcNbq0znIT6dG8uhO7Ce+VIIhZUhjsryXsMPJQz3bZg7Q2eNzLwipb25bRZslGb2myio5mScd1TFg==";
+  };
   "type-check" = {
     out_path = "type-check";
     name = "type-check@0.4.0";
@@ -3722,6 +3968,15 @@
     name = "typed-array-length@1.0.7";
     url = "https://registry.npmjs.org/typed-array-length/-/typed-array-length-1.0.7.tgz";
     hash = "sha512-3KS2b+kL7fsuk/eJZ7EQdnEmQoaho/r6KUef7hxvltNA5DR8NAUM+8wJMbJyZ4G9/7i3v5zPBIMN5aybAh2/Jg==";
+  };
+  "typesafe-i18n" = {
+    out_path = "typesafe-i18n";
+    binaries = {
+      "typesafe-i18n" = "../typesafe-i18n/cli/typesafe-i18n.mjs";
+    };
+    name = "typesafe-i18n@5.26.2";
+    url = "https://registry.npmjs.org/typesafe-i18n/-/typesafe-i18n-5.26.2.tgz";
+    hash = "sha512-2QAriFmiY5JwUAJtG7yufoE/XZ1aFBY++wj7YFS2yo89a3jLBfKoWSdq5JfQYk1V2BS7V2c/u+KEcaCQoE65hw==";
   };
   "typescript" = {
     out_path = "typescript";
@@ -3789,6 +4044,18 @@
     name = "uri-js@4.4.1";
     url = "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz";
     hash = "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==";
+  };
+  "use-callback-ref" = {
+    out_path = "use-callback-ref";
+    name = "use-callback-ref@1.3.3";
+    url = "https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz";
+    hash = "sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==";
+  };
+  "use-sidecar" = {
+    out_path = "use-sidecar";
+    name = "use-sidecar@1.1.3";
+    url = "https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz";
+    hash = "sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==";
   };
   "which" = {
     out_path = "which";
